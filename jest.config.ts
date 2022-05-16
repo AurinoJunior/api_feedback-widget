@@ -6,4 +6,6 @@ export default {
   transform: {
     "^.+\\.(t|j)sx?$": ["@swc/jest"],
   },
+  preset: "ts-jest",
+  testEnvironment: "node",
 };
